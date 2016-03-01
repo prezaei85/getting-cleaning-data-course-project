@@ -42,7 +42,7 @@ The dataset includes the following files:
 
 ## Modifications
 
-The subjects, features and activity labels are combined for both test and train sets to make up one data set. The features that include "mean" or "std" are then selected, and the rest of the features are dismissed. A new data set is then formed by aggregating each feature for each subject and each activity and saving the average value. In addition, the new data set has a more meaningful set of feature labels and the activities have descriptive labels. 
+The subjects, features and activity labels are combined for both test and train sets to make up one data set. The features that include "mean" or "std" in their names are then selected, and the rest of the features are dismissed. A new tidy and independent data set is then formed by aggregating each feature for each subject and each activity and saving the average value. In addition, the new data set has a more descriptive set of feature labels than the original and the activities have descriptive labels. 
 
 
 ## Notes: 
